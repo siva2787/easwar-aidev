@@ -7,7 +7,7 @@ export interface DynamicContent { projects: ProjectItem[]; journey: Milestone[];
 export const shot = (u: string) => `https://api.microlink.io/?url=${encodeURIComponent(u)}&screenshot=true&meta=false&embed=screenshot.url&viewport.width=1440&viewport.height=685`;
 export const journeyKey = (m: Milestone) => `${m.role}|${m.period}`;
 
-export const REPO = 'siva2787/easwar-dev';
+export const REPO = 'siva2787/easwar-aidev';
 export const BRANCH = 'main';
 export const FILE = 'frontend/public/content.json';
 
