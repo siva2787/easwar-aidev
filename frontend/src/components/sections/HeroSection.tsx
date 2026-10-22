@@ -59,7 +59,7 @@ const CountUp: React.FC<{ to: number; reduced: boolean }> = ({ to, reduced }) =>
   return <span ref={ref}>{reduced ? to : 0}</span>;
 };
 
-export const HeroSection: React.FC<{ isDark: boolean; onNavigate: (id: string) => void }> = ({ isDark, onNavigate }) => {
+export const HeroSection: React.FC<{ isDark?: boolean; onNavigate: (id: string) => void }> = ({ onNavigate }) => {
   const reduced = useReducedMotion();
   const vid = useRef<HTMLVideoElement>(null);
   const [hasVideo, setHasVideo] = useState(false);

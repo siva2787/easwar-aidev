@@ -5,7 +5,7 @@ export interface ProjectItem {
   slug: string;
   title: string;
   tagline: string;
-  category: 'AI / ML' | 'Full-Stack' | 'Intelligent Utility' | 'Mobile';
+  category: 'AI / ML' | 'Full-Stack' | 'Intelligent Utility' | 'Mobile' | 'Data App' | 'Mobile / Web' | 'Web';
   summary: string;
   problem: string;
   solution: string;
